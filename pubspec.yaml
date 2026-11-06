@@ -1,0 +1,52 @@
+name: centralized_hub
+description: "A personal device-usage hub that tracks game sessions, battery, and temperature."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+
+  # Database
+  drift: ^2.22.1
+  sqlite3_flutter_libs: ^0.5.28
+  path_provider: ^2.1.5
+  path: ^1.9.1
+
+  # Navigation
+  go_router: ^14.8.1
+
+  # Charts
+  fl_chart: ^0.70.2
+
+  # UI utilities
+  flutter_staggered_grid_view: ^0.7.0
+  share_plus: ^10.1.4
+  intl: ^0.20.2
+  google_fonts: ^6.2.1
+  uuid: ^4.5.1
+
+  # Serialization
+  freezed_annotation: ^2.4.4
+  json_annotation: ^4.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.4.14
+  drift_dev: ^2.22.1
+  riverpod_generator: ^2.6.3
+  freezed: ^2.5.7
+  json_serializable: ^6.9.4
+  mocktail: ^1.0.4
+
+flutter:
+  uses-material-design: true
